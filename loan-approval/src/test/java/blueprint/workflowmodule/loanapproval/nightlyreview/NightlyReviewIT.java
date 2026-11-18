@@ -1,4 +1,4 @@
-package blueprint.workflowmodule.nightlyreview;
+package blueprint.workflowmodule.loanapproval.nightlyreview;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.awaitility.Awaitility.await;
@@ -9,8 +9,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import blueprint.workflowmodule.WorkflowModuleTest;
-import blueprint.workflowmodule.nightlyreview.model.Aggregate;
-import blueprint.workflowmodule.nightlyreview.model.AggregateRepository;
+import blueprint.workflowmodule.loanapproval.nightlyreview.model.Aggregate;
+import blueprint.workflowmodule.loanapproval.nightlyreview.model.AggregateRepository;
 import io.quarkus.narayana.jta.QuarkusTransaction;
 import io.quarkus.test.junit.QuarkusTest;
 import jakarta.inject.Inject;

@@ -1,6 +1,6 @@
-package blueprint.workflowmodule.nightlyreview;
+package blueprint.workflowmodule.loanapproval.nightlyreview;
 
-import blueprint.workflowmodule.nightlyreview.model.Aggregate;
+import blueprint.workflowmodule.loanapproval.nightlyreview.model.Aggregate;
 import io.vanillabp.spi.process.ProcessService;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

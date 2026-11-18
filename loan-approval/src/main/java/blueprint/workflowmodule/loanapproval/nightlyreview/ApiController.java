@@ -1,8 +1,8 @@
-package blueprint.workflowmodule.nightlyreview;
+package blueprint.workflowmodule.loanapproval.nightlyreview;
 
 import java.util.stream.Collectors;
 
-import blueprint.workflowmodule.nightlyreview.api.NightlyReviewApi;
+import blueprint.workflowmodule.loanapproval.nightlyreview.api.NightlyReviewApi;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
